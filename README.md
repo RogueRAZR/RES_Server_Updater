@@ -11,3 +11,5 @@ Checks if reboot needed
 Performs Reboot
 
 Create Scheduled Task, or set as part of weekly server maintenance plan in RES DB.
+
+Dependancies: Get-WURebootStatus.ps1, Get-WUInstall.ps1
