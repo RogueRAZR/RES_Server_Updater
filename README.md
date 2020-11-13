@@ -1,6 +1,6 @@
 # RES_Server_Updater
 
-Shutdown RES Server
+Shutdown RES Server DB
 
 Checks for Windows Updates
 
@@ -10,4 +10,4 @@ Checks if reboot needed
 
 Performs Reboot
 
-Create Scheduled Task, or set as part of weekly server maintenance plan in RES.
+Create Scheduled Task, or set as part of weekly server maintenance plan in RES DB.
