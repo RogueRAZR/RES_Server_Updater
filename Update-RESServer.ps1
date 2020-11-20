@@ -18,7 +18,7 @@
  
 .ICONURI
  
-.EXTERNALMODULEDEPENDENCIES
+.EXTERNALMODULEDEPENDENCIES Get-WindowsUpdate
  
 .REQUIREDSCRIPTS
  
@@ -31,6 +31,7 @@ Version 1.0: Original published version.
 <#
 .SYNOPSIS
 Stops RES Database with clcontrol. Then performs a windows update check, install, and checks for reboot.
+Requires the Get-WindowsUpdate module to perform Windows Update actions.
  
 GNU General Public License v3.0
  
