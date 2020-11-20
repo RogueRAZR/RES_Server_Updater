@@ -88,7 +88,6 @@ function Get-Updates
 				Start-Sleep -s 15
 			}
 		}
-		else
 	}
 	Catch 
 	{
