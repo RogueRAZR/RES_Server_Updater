@@ -60,7 +60,7 @@ function Stop-RES
 	(
 		[Parameter(Mandatory=$True)] [string] $State = ""
 	)
-	cd /D 'D:\micros\res\pos\bin'
+	Set-Location -Path 'D:\micros\res\pos\bin'
 	# Shutdown RES Systems
 	clcontrol.exe $State
 	Start-Sleep -s 300
@@ -68,7 +68,7 @@ function Stop-RES
 
 function Get-Updates
 {
-	cd /D 'C:\Windows\System32'
+	Set-Location -Path 'C:\Windows\System32'
 	# Check for and install windows updates. Catch Exception if WinUpdate Fails
 	Try 
 	{
